@@ -47,7 +47,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Aurora.ItemPorting.Client\Aurora.ItemPorting.Client.csproj">
+    <ProjectReference Include="..\Comcast.ItemPorting.Client\Aurora.ItemPorting.Client.csproj">
       <Project>{16F07264-D902-46F9-BD40-50A76D66FD91}</Project>
       <Name>Aurora.ItemPorting.Client</Name>
     </ProjectReference>
