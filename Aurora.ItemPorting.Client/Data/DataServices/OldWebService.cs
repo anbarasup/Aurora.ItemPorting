@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Aurora.ItemPorting.Client.Core;
 using Aurora.ItemPorting.Client.Data.Entities;
 
 namespace Aurora.ItemPorting.Client.Data
 {
+    [FactoryType("OldWebService", typeof(DataService))]
     public class OldWebService : WebService
     {
         public OldWebService()

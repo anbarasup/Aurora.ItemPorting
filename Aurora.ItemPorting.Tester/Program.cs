@@ -33,7 +33,7 @@ namespace Aurora.ItemPorting.Tester
             //        Console.WriteLine(template.Name);
             //}
 
-            WebService ows = DataServiceFactory.Instance.Create("OldWebSevice", new Connection(new Uri("http://SitecoreLocal:8080/sitecore/shell/webservice/service.asmx"), new Credentials(@"sitecore\admin", "b"), "master"));
+            WebService ows = DataServiceFactory.Instance.Create("OldWebSevice", new Connection(new Uri("http://Sitecore680/sitecore/shell/webservice/service.asmx"), new Credentials(@"sitecore\admin", "b"), "master"));
             IEnumerable<Database> owsdata = ows.GetDatabases();
         }
     }

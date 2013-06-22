@@ -43,6 +43,7 @@
     <Compile Include="Comparer\CompareExtensions.cs" />
     <Compile Include="Comparer\DBComparer.cs" />
     <Compile Include="Core\Factory\Factory.cs" />
+    <Compile Include="Core\Factory\FactoryAttribute.cs" />
     <Compile Include="Core\Factory\FactoryElement.cs" />
     <Compile Include="Core\Factory\IFactory.cs" />
     <Compile Include="Core\Factory\IFactoryElement.cs" />
