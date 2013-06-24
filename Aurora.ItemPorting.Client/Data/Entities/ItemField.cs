@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Aurora.ItemPorting.Client.Data.Entities
 {
-    public class ItemField
+    public class ItemField : BaseEntity
     {
         public Guid ItemId { get; set; }
         public string Language { get; set; }

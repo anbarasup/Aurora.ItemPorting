@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Aurora.ItemPorting.Client.Data.Entities
 {
-    public class TemplateSection
+    public class TemplateSection : BaseEntity
     {
         public Guid Id { get; set; }
         public string Name { get; set; }

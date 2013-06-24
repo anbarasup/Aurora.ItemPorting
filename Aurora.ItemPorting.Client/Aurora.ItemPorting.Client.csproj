@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Comparer\CompareExtensions.cs" />
+    <Compile Include="Comparer\TemplateCompareExtensions.cs" />
     <Compile Include="Comparer\DBComparer.cs" />
     <Compile Include="Core\Factory\Factory.cs" />
     <Compile Include="Core\Factory\FactoryAttribute.cs" />
