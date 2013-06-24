@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Aurora.ItemPorting.Client.UnitTests
+namespace Aurora.ItemPorting.Client.UnitTests.Comparer
 {
     [TestClass]
     public class TemplateCompareExtensionsTests

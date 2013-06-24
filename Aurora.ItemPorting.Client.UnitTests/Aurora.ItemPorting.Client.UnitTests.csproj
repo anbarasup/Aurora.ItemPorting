@@ -45,8 +45,15 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\OldWebServiceTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TemplateCompareExtensionsTests.cs" />
+    <Compile Include="Comparer\TemplateCompareExtensionsTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aurora.ItemPorting.Client\Aurora.ItemPorting.Client.csproj">
+      <Project>{16F07264-D902-46F9-BD40-50A76D66FD91}</Project>
+      <Name>Aurora.ItemPorting.Client</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurora.ItemPorting.Tester", "Aurora.ItemPorting.Tester\Aurora.ItemPorting.Tester.csproj", "{0B487AC9-E704-49C2-8503-881E2916DAA9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurora.ItemPorting.Client", "Aurora.ItemPorting.Client\Aurora.ItemPorting.Client.csproj", "{16F07264-D902-46F9-BD40-50A76D66FD91}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurora.ItemPorting.Client.UnitTests", "Aurora.ItemPorting.Client.UnitTests\Aurora.ItemPorting.Client.UnitTests.csproj", "{CF591CDF-AE7F-44EB-9C87-2DD0AAADBBC4}"
@@ -27,16 +25,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0B487AC9-E704-49C2-8503-881E2916DAA9}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{0B487AC9-E704-49C2-8503-881E2916DAA9}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{0B487AC9-E704-49C2-8503-881E2916DAA9}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{0B487AC9-E704-49C2-8503-881E2916DAA9}.Debug|x86.ActiveCfg = Debug|x86
-		{0B487AC9-E704-49C2-8503-881E2916DAA9}.Debug|x86.Build.0 = Debug|x86
-		{0B487AC9-E704-49C2-8503-881E2916DAA9}.Release|Any CPU.ActiveCfg = Release|x86
-		{0B487AC9-E704-49C2-8503-881E2916DAA9}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{0B487AC9-E704-49C2-8503-881E2916DAA9}.Release|Mixed Platforms.Build.0 = Release|x86
-		{0B487AC9-E704-49C2-8503-881E2916DAA9}.Release|x86.ActiveCfg = Release|x86
-		{0B487AC9-E704-49C2-8503-881E2916DAA9}.Release|x86.Build.0 = Release|x86
 		{16F07264-D902-46F9-BD40-50A76D66FD91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{16F07264-D902-46F9-BD40-50A76D66FD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16F07264-D902-46F9-BD40-50A76D66FD91}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
