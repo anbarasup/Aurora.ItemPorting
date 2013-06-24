@@ -5,6 +5,9 @@ using System.Text;
 
 namespace Aurora.ItemPorting.Client.Data
 {
+    /// <summary>
+    /// Class to store credentials
+    /// </summary>
     public class Credentials
     {
         public string UserName { get; set; }
