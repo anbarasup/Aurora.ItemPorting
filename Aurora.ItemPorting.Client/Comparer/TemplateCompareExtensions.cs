@@ -6,6 +6,9 @@ using Aurora.ItemPorting.Client.Data.Entities;
 
 namespace Aurora.ItemPorting.Client.Comparer
 {
+    /// <summary>
+    /// Contains list of extension function used to compare template
+    /// </summary>
     public static class TemplateCompareExtensions
     {
         public static bool CompareTemplate(this Template sourceTemplate

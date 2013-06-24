@@ -5,7 +5,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurora.ItemPorting.Tester",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurora.ItemPorting.Client", "Aurora.ItemPorting.Client\Aurora.ItemPorting.Client.csproj", "{16F07264-D902-46F9-BD40-50A76D66FD91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurora.ItemPorting.Client.UnitTests", "Aurora.ItemPorting.Client.UnitTests\Aurora.ItemPorting.Client.UnitTests.csproj", "{CF591CDF-AE7F-44EB-9C87-2DD0AAADBBC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FF2DB0F1-9FD3-4BBE-B952-EF69614D1B74}"
+	ProjectSection(SolutionItems) = preProject
+		Aurora.ItemPorting.vsmdi = Aurora.ItemPorting.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Aurora.ItemPorting.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -35,6 +47,16 @@ Global
 		{16F07264-D902-46F9-BD40-50A76D66FD91}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{16F07264-D902-46F9-BD40-50A76D66FD91}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{16F07264-D902-46F9-BD40-50A76D66FD91}.Release|x86.ActiveCfg = Release|Any CPU
+		{CF591CDF-AE7F-44EB-9C87-2DD0AAADBBC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF591CDF-AE7F-44EB-9C87-2DD0AAADBBC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF591CDF-AE7F-44EB-9C87-2DD0AAADBBC4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CF591CDF-AE7F-44EB-9C87-2DD0AAADBBC4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{CF591CDF-AE7F-44EB-9C87-2DD0AAADBBC4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CF591CDF-AE7F-44EB-9C87-2DD0AAADBBC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF591CDF-AE7F-44EB-9C87-2DD0AAADBBC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF591CDF-AE7F-44EB-9C87-2DD0AAADBBC4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CF591CDF-AE7F-44EB-9C87-2DD0AAADBBC4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{CF591CDF-AE7F-44EB-9C87-2DD0AAADBBC4}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
